@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Advance Online Bookstore</title>
+
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">                
+    <link rel="stylesheet" href="css/bootstrap.min.css">                                      
+    <link rel="stylesheet" href="css/tooplate-style.css">                                   
+
+    
+</head>
+
+    <body>
+        
+        <div class="container">
+            <header class="tm-site-header">
+                <h1 class="tm-site-name">Advance</h1>
+                <p class="tm-site-description">Online Bookstore</p>
+                
+                <nav class="navbar navbar-expand-md tm-main-nav-container">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#tmMainNav" aria-controls="tmMainNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse tm-main-nav" id="tmMainNav">
+                        <ul class="nav nav-fill tm-main-nav-ul">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">My Orders</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">images</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="team.html">FAQ</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>    
+                </nav>
+                
+            </header>
+            
+            <div class="tm-main-content">                    
+                <section class="row tm-item-preview tm-margin-b-xl">
+                    <div class="col-12">
+                        <h2 class="tm-blue-text tm-margin-b-p">Top questions</h2>
+                    </div>
+                    <div class="col-md-6 col-sm-12 mb-md-0 mb-5">         
+                        <div class="mr-lg-5">
+                            <p class="tm-margin-b-p"><b>Can I get a free trial before I purchase?</b><br>
+                            ans: Yes. Free trial automatically converts into a 1-month membership for $3.99/month, unless you turn off automatic renewal before the end of the free trial.</p>
+                            <p class="tm-margin-b-p"><b>How do I create a Return Request?</b><br>
+
+                            ans: You can create a Return in three simple steps<br><br>
+                            1. Tap on MyOrders<br>
+                            2. Choose the item to be Returned<br>
+                            3. Enter details requested and create a return request</p>
+                            <p><b>How do I check the status of my order?</b><br> ans: Please tap on “My Orders” section under main menu of App/Website/M-site to check your order status.</p>                        
+                        </div>                                       
+                    </div>
+                    
+        </div>
+        
+        <!-- load JS files -->
+        <script src="js/jquery-1.11.3.min.js"></script>         <!-- jQuery (https://jquery.com/download/) -->
+        <script src="js/popper.min.js"></script>                <!-- Popper (https://popper.js.org/) -->
+        <script src="js/bootstrap.min.js"></script>             <!-- Bootstrap (https://getbootstrap.com/) -->
+        <script>     
+       
+            $(document).ready(function(){
+                
+                // Update the current year in copyright
+                $('.tm-current-year').text(new Date().getFullYear());
+
+            });
+
+        </script>             
+
+</body>
+</html>
